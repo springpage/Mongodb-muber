@@ -1,0 +1,21 @@
+{
+  "name": "muber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test nodemon --exec 'mocha --recursive -R min --timeout 0'",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.3",
+    "mocha": "^5.2.0",
+    "mongoose": "^5.1.7",
+    "nodemon": "^1.17.5",
+    "supertest": "^3.1.0"
+  }
+}
